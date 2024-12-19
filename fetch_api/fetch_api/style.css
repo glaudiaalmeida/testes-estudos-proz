@@ -1,0 +1,87 @@
+body {
+  background-color: #58378C;
+  color: #FEFEFE;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  background-color: #6C3C9D;
+  width: 400px;
+  padding: 8px;
+  border-radius: 8px;
+  color: #FEFEFE;
+}
+
+.usuarios-container{
+  display: flex;
+  
+}
+
+posts{
+  display: flex;
+  width: 200px;
+
+}
+
+form {
+  width: 400px;
+}
+.posts-container{
+  margin-top: 2rem;
+  display: flex;
+  height: 600px;
+}
+
+ button {
+  width: 150px;
+  text-align: center;
+  display: flex;
+  background-color: #EF7D19;
+  color: #FEFEFE;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  gap: 8px;
+}
+
+input {
+  padding: 8px;
+}
+
+textarea {
+  padding: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.usuario {
+  background-color: #6C3C9D;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.usuario img {
+  margin-bottom: 1rem;
+  display: flex;
+  height: 4vh;
+
+}
+
+.postagem {
+  background-color: #6C3C9D;
+  border-radius: 8px;
+  width: 400px;
+  margin: 1rem 0 1rem 0;
+  padding: .4rem 1rem;
+}

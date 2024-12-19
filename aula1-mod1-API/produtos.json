@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "nome":"ar condicionado",
+        "marca":"gree",
+        "categoria":"A",
+        "valor":2880,
+        "quantidadeEstoque":10,
+        "prontaEntrega": true
+    },
+    {
+        "id":2,
+        "nome":"geladeira",
+        "marca":"eletrolux",
+        "categoria":"D",
+        "valor":5800,
+        "quantidadeEstoque":4,
+        "prontaEntrega": true
+    },
+    {
+        "id":3,
+        "nome":"smart TV",
+        "marca":"samsung",
+        "categoria":"A",
+        "valor":8200,
+        "quantidadeEstoque":2,
+        "prontaEntrega": false
+    }
+]
